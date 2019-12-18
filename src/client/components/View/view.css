@@ -1,0 +1,24 @@
+.list-group {
+  max-height: 621px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-right: 17px;
+  box-sizing: content-box;
+}
+.queue {
+  overflow: hidden;
+}
+/* width */
+.queue ::-webkit-scrollbar {
+  width: 0px;
+}
+/* ------------ SCROLL BAR UNUSED ATTRIBUTES --------- */
+/*
+.queue ::-webkit-scrollbar-track {
+  box-shadow: none;
+}
+
+.queue ::-webkit-scrollbar-thumb {
+  background:rgba(84, 89, 147) !important;
+}
+*/

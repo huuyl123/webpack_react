@@ -1,0 +1,213 @@
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+a:focus {
+  outline: none;
+}
+/* COLOR */
+.bg-main {
+  background-color: rgba(25, 30, 88) !important;
+}
+.bg-main-dark {
+  background-color: rgba(8, 12, 59) !important;
+}
+.bg-sub {
+  background-color: rgba(50, 55, 118) !important;
+}
+.bg-sub-light {
+  background-color: rgba(84, 89, 147) !important;
+}
+.color-main {
+  color: rgba(25, 30, 88);
+}
+.color-sub-light {
+  color: rgba(84, 89, 147) !important;
+}
+.border-color-sub {
+  border-color: rgba(50, 55, 118) !important;
+}
+.border-left-sub-light {
+  border-left: 1px solid rgba(84, 89, 147) !important;
+}
+.border-top-sub-light {
+  border-top: 1px solid rgba(84, 89, 147) !important;
+}
+.border-right-sub-light {
+  border-right: 1px solid rgba(84, 89, 147) !important;
+}
+.text-grey {
+  color: #4c4c4c;
+}
+/* Shape */
+.circle {
+  width: 150px;
+  height: 150px;
+}
+/* font-size */
+.font-small {
+  font-size: 12px;
+}
+/* background picture */
+.masthead {
+  min-height: 621px;
+  background: linear-gradient(
+      to bottom,
+      rgba(50, 55, 118, 0.5) 0,
+      rgba(50, 55, 118, 0.5) 100%
+    ),
+    url(https://wallpaperbro.com/img/996539.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nav-link {
+  padding: 0 0.5rem 0 0.5rem !important;
+}
+.navbar .navbar-nav li {
+  border: 3px solid rgb(0, 0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+.navbar .navbar-nav li:hover {
+  border: 3px solid #ffffff;
+}
+.navbar .navbar-nav .btn {
+  padding: 0.5rem 0.75rem !important;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+/* FOOTER CSS */
+.about {
+  word-wrap: break-word;
+}
+.fa-facebook:hover {
+  color: rgb(73, 96, 202);
+}
+.fa-twitter:hover {
+  color: rgb(31, 148, 177);
+}
+.fa-youtube:hover {
+  color: red;
+}
+.fa-instagram:hover {
+  color: rgb(231, 116, 21);
+}
+.fa-university:hover {
+  color: white;
+}
+
+/* LINK */
+a {
+  color: rgba(50, 58, 20, 0.7) !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+/* Forms */
+.form .form-group {
+  margin: 1.2rem 0;
+}
+
+.form .form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form input[type='date'],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+:focus {
+  outline: 1px solid rgba(50, 58, 20, 0.7);
+}
+.form input[type='submit'],
+button {
+  font: inherit;
+}
+
+.form .social-input {
+  display: flex;
+}
+
+.form .social-input i {
+  padding: 0.5rem;
+  width: 4rem;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.table th {
+  background: var(--light-color);
+}
+/* FAQ CSS */
+/* .card-header .btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(119, 135, 54, 0.7) !important;
+} */
+.card {
+  background-color: #4c6291 !important;
+}
+.accordion {
+  position: relative;
+  height: 375px;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #2e385c;
+}
+::-webkit-scrollbar-track-piece {
+  background: #4c6291;
+}
+/* PROFILEPAGE CSS */
+.personalInfo .btn:hover {
+  background-color: rgba(8, 12, 59) !important;
+}
+/* SIGNUP/LOGIN CSS */
+
+/* SCROLL BAR CSS */
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
